@@ -48,7 +48,7 @@
     {%if safe==0%}
     <span class="d-block p-2 bg-danger text-white"><center>Water is unsafe don't drink.</center></span>
     {%elif safe==1%}
-    <span class="d-block p-2 bg-info text-white">Water is {{percent_of_safety|int}}% safe to drink.</span>
+    <span class="d-block p-2 bg-info text-white"><center>Water is {{percent_of_safety|int}}% safe to drink.</center></span>
     {% else %}
 {% endif %}
   </div>
